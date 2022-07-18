@@ -1,10 +1,10 @@
-require 'guard'
+require 'guard/compat/plugin'
 # require 'guard/guard'
 # require 'guard/watcher'
 require 'stitch-rb'
 
 module Guard
-  class Stitch < Guard
+  class Stitch < Plugin
 
     def initialize(watchers = [], options = {})
       super(watchers, options)
