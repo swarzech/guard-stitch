@@ -1,6 +1,6 @@
 require 'guard'
-require 'guard/guard'
-require 'guard/watcher'
+# require 'guard/guard'
+# require 'guard/watcher'
 require 'stitch-rb'
 
 module Guard
